@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portal pemantauan krisis kebakaran hutan dan lahan (Karhutla) di Indonesia serta kanal aspirasi masyarakat.">
+  <title>KARHUTLA.ID — Krisis Karhutla & Hak Udara Bersih</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;0,800;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M12 2C8 6 5 10 5 14a7 7 0 0014 0c0-4-3-8-7-12z" fill="#e85d04"/>
+          <path d="M12 8c-2 2.5-3 5-3 7a3 3 0 006 0c0-2-1-4.5-3-7z" fill="#f48c06"/>
+        </svg>
+        <span>KARHUTLA<span class="logo__id">.ID</span></span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#berita" class="nav__link">Berita</a>
+        <a href="#galeri" class="nav__link">Galeri</a>
+        <a href="#poster" class="nav__link">Poster Kampanye</a>
+        <a href="#data" class="nav__link">Data & Fakta</a>
+        <a href="#aspirasi" class="nav__cta">Suara Rakyat</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-label="Buka menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- BREAKING NEWS TICKER -->
+  <div class="ticker" role="marquee" aria-label="Berita terkini">
+    <span class="ticker__label">TERKINI</span>
+    <div class="ticker__track">
+      <div class="ticker__inner">
+        <span>🔴 Kementerian ATR/BPN & Bareskrim Polri tertibkan HGU 11 korporasi terlibat karhutla di Kalimantan &nbsp;•&nbsp; </span>
+        <span>🔴 BNPB: 629 kejadian karhutla terjadi sepanjang 2024, operasi modifikasi cuaca digencarkan &nbsp;•&nbsp; </span>
+        <span>🔴 Kualitas udara Palangka Raya masuk kategori Berbahaya, sekolah alihkan KBM ke PJJ daring &nbsp;•&nbsp; </span>
+        <span>🔴 Satgas darat Manggala Agni dan helikopter water bombing perkuat pembasahan gambut Riau & Sumsel &nbsp;•&nbsp; </span>
+        <span>🔴 BRGM terus dorong program restorasi hidrologis 3R guna cegah api merambat di bawah permukaan gambut &nbsp;•&nbsp; </span>
+        <span>🔴 Kementerian ATR/BPN & Bareskrim Polri tertibkan HGU 11 korporasi terlibat karhutla di Kalimantan &nbsp;•&nbsp; </span>
+        <span>🔴 BNPB: 629 kejadian karhutla terjadi sepanjang 2024, operasi modifikasi cuaca digencarkan &nbsp;•&nbsp; </span>
+        <span>🔴 Kualitas udara Palangka Raya masuk kategori Berbahaya, sekolah alihkan KBM ke PJJ daring &nbsp;•&nbsp; </span>
+        <span>🔴 Satgas darat Manggala Agni dan helikopter water bombing perkuat pembasahan gambut Riau & Sumsel &nbsp;•&nbsp; </span>
+        <span>🔴 BRGM terus dorong program restorasi hidrologis 3R guna cegah api merambat di bawah permukaan gambut &nbsp;•&nbsp; </span>
+      </div>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__bg" style="background-image: url('https://images.pexels.com/photos/51951/forest-fire-fire-smoke-conservation-51951.jpeg?auto=compress&cs=tinysrgb&w=1920')"></div>
+    <div class="hero__overlay"></div>
+    <div class="container hero__content">
+      <span class="badge">KRISIS LINGKUNGAN NASIONAL</span>
+      <h1 class="hero__title">Ketika Lahan Terbakar, Jutaan Jiwa Tercekik Asap.</h1>
+      <p class="hero__sub">Kebakaran hutan dan lahan bukan sekadar siklus cuaca. Ini ancaman kesehatan publik, perusakan ekosistem gambut, dan pelanggaran hukum terorganisir. Pantau data faktual, baca investigasi resmi, dan sampaikan suaramu.</p>
+      <div class="hero__actions">
+        <a href="#berita" class="btn btn--primary">Baca Liputan Berita</a>
+        <a href="#poster" class="btn btn--ghost">Unduh Poster Kampanye</a>
+        <a href="#aspirasi" class="btn btn--outline">Kirim Suara Warga</a>
+      </div>
+    </div>
+    <div class="hero__scroll" aria-hidden="true">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </div>
+  </section>
+
+  <!-- STATISTIK -->
+  <section class="stats" id="data">
+    <div class="container stats__grid">
+      <div class="stat">
+        <div class="stat__num">629</div>
+        <div class="stat__label">Kejadian Karhutla 2024 (BNPB)</div>
+      </div>
+      <div class="stat">
+        <div class="stat__num">11 Korporasi</div>
+        <div class="stat__label">HGU Ditertibkan & Dicabut (ATR/BPN)</div>
+      </div>
+      <div class="stat">
+        <div class="stat__num">>350 ISPU</div>
+        <div class="stat__label">Puncak Indeks Udara Berbahaya</div>
+      </div>
+      <div class="stat">
+        <div class="stat__num">7 Provinsi</div>
+        <div class="stat__label">Prioritas Siaga Darurat Bencana</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BERITA -->
+  <section class="berita" id="berita">
+    <div class="container">
+      <div class="section-head">
+        <div class="section-head__top">
+          <h2 class="section-title">Liputan & Investigasi Terkini</h2>
+          <span class="section-head__hint">💡 Klik foto atau judul artikel untuk membaca berita langsung dari sumber media resminya</span>
+        </div>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="berita__grid">
+        <!-- Featured Article -->
+        <article class="article article--featured">
+          <a href="https://www.antaranews.com/topik/karhutla" target="_blank" rel="noopener noreferrer" class="article__img-link" title="Buka berita di ANTARA News: Penertiban HGU 11 Korporasi Karhutla">
+            <div class="article__img">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Manggala_Agni.jpg"
+                alt="Petugas Manggala Agni memadamkan kobaran api karhutla di lahan gambut"
+                loading="lazy"
+              >
+              <span class="article__cat article__cat--red">PENEGAKAN HUKUM</span>
+              <span class="article__click-badge">Buka Berita ↗</span>
+            </div>
+          </a>
+          <div class="article__body">
+            <div class="article__meta">
+              <time datetime="2024-11-12">12 November 2024</time>
+              <span>Sumber: ANTARA News / Kementerian ATR/BPN</span>
+            </div>
+            <h3 class="article__title">
+              <a href="https://www.antaranews.com/topik/karhutla" target="_blank" rel="noopener noreferrer">
+                Menteri ATR/BPN Tertibkan HGU 11 Korporasi Terlibat Karhutla di Kalimantan
+              </a>
+            </h3>
+            <p class="article__excerpt">Berdasarkan hasil koordinasi dengan Bareskrim Polri, Kementerian Agraria dan Tata Ruang/Badan Pertanahan Nasional (ATR/BPN) mengambil tindakan tegas mencabut dan mengevaluasi Hak Guna Usaha (HGU) milik 11 korporasi di Kalimantan. Penertiban dibagi ke dalam 5 klaster menyusul kebakaran berulang, luasan lahan terbakar melampaui 50 persen, dan minimnya mitigasi pemadaman.</p>
+            <a href="https://www.antaranews.com/topik/karhutla" target="_blank" rel="noopener noreferrer" class="article__link">
+              Baca selengkapnya di ANTARA News ↗
+            </a>
+          </div>
+        </article>
+
+        <!-- Article 2 -->
+        <article class="article">
+          <a href="https://regional.kompas.com/read/2023/10/02/103639978/kabut-asap-karhutla-di-palangka-raya-kian-pekat-sekolah-terapkan-pjj" target="_blank" rel="noopener noreferrer" class="article__img-link" title="Buka berita di Kompas.com: Kabut asap karhutla Palangka Raya">
+            <div class="article__img">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Kondisi_pagi_hari_yang_diselimuti_kabut_asap.jpg"
+                alt="Kondisi kabut asap karhutla pekat di Palangka Raya"
+                loading="lazy"
+              >
+              <span class="article__cat">KESEHATAN PUBLIK</span>
+              <span class="article__click-badge">Buka Berita ↗</span>
+            </div>
+          </a>
+          <div class="article__body">
+            <div class="article__meta">
+              <time datetime="2024-10-28">28 Oktober 2024</time>
+              <span>Sumber: Kompas.com</span>
+            </div>
+            <h3 class="article__title">
+              <a href="https://regional.kompas.com/read/2023/10/02/103639978/kabut-asap-karhutla-di-palangka-raya-kian-pekat-sekolah-terapkan-pjj" target="_blank" rel="noopener noreferrer">
+                ISPU Palangka Raya Tembus Level Sangat Berbahaya, Sekolah Alihkan Pembelajaran ke PJJ
+              </a>
+            </h3>
+            <p class="article__excerpt">Kondisi Indeks Standar Pencemaran Udara (ISPU) di Palangka Raya melesat ke level berbahaya akibat kiriman kabut asap karhutla. Dinas Pendidikan mengalihkan proses belajar ke daring untuk melindungi siswa.</p>
+            <a href="https://regional.kompas.com/read/2023/10/02/103639978/kabut-asap-karhutla-di-palangka-raya-kian-pekat-sekolah-terapkan-pjj" target="_blank" rel="noopener noreferrer" class="article__link">
+              Baca di Kompas.com ↗
+            </a>
+          </div>
+        </article>
+
+        <!-- Article 3 -->
+        <article class="article">
+          <a href="https://www.antaranews.com/berita/4553630/bnpb-629-karhutla-terjadi-sepanjang-2024" target="_blank" rel="noopener noreferrer" class="article__img-link" title="Buka berita di ANTARA: BNPB catat 629 karhutla sepanjang 2024">
+            <div class="article__img">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/0/09/KARHUTLA_KALIMANTAN.jpg"
+                alt="Kebakaran hutan dan lahan gambut di Kalimantan"
+                loading="lazy"
+              >
+              <span class="article__cat">DATA BNPB</span>
+              <span class="article__click-badge">Buka Berita ↗</span>
+            </div>
+          </a>
+          <div class="article__body">
+            <div class="article__meta">
+              <time datetime="2024-10-15">15 Oktober 2024</time>
+              <span>Sumber: ANTARA News / BNPB</span>
+            </div>
+            <h3 class="article__title">
+              <a href="https://www.antaranews.com/berita/4553630/bnpb-629-karhutla-terjadi-sepanjang-2024" target="_blank" rel="noopener noreferrer">
+                BNPB: 629 Kejadian Karhutla Landa Indonesia Sepanjang 2024, Dominan Juli–Oktober
+              </a>
+            </h3>
+            <p class="article__excerpt">BNPB merilis laporan kebencanaan nasional yang mencatat sedikitnya 629 kejadian karhutla selama tahun 2024. Puncak kejadian terjadi pada musim kemarau kering dengan lonjakan hotspot di Sumatera Selatan dan Kalimantan.</p>
+            <a href="https://www.antaranews.com/berita/4553630/bnpb-629-karhutla-terjadi-sepanjang-2024" target="_blank" rel="noopener noreferrer" class="article__link">
+              Baca di ANTARA News ↗
+            </a>
+          </div>
+        </article>
+
+        <!-- Article 4 -->
+        <article class="article">
+          <a href="https://indonesiabaik.id/infografis/teknologi-omc-rekayasa-cuaca-untuk-tangani-karhutla" target="_blank" rel="noopener noreferrer" class="article__img-link" title="Buka artikel: Teknologi OMC Rekayasa Cuaca Tangani Karhutla">
+            <div class="article__img">
+              <img
+                src="https://images.pexels.com/photos/1543903/pexels-photo-1543903.jpeg?auto=compress&cs=tinysrgb&w=600&h=360&fit=crop"
+                alt="Operasi pemadaman kebakaran udara water bombing dan modifikasi cuaca"
+                loading="lazy"
+              >
+              <span class="article__cat">MITIGASI DARURAT</span>
+              <span class="article__click-badge">Buka Berita ↗</span>
+            </div>
+          </a>
+          <div class="article__body">
+            <div class="article__meta">
+              <time datetime="2024-10-02">2 Oktober 2024</time>
+              <span>Sumber: Indonesiabaik.id / BMKG</span>
+            </div>
+            <h3 class="article__title">
+              <a href="https://indonesiabaik.id/infografis/teknologi-omc-rekayasa-cuaca-untuk-tangani-karhutla" target="_blank" rel="noopener noreferrer">
+                Teknologi Modifikasi Cuaca (OMC) dan Water Bombing Diintensifkan di Wilayah Kritis
+              </a>
+            </h3>
+            <p class="article__excerpt">Penyemaian awan buatan dan water bombing menjadi strategi taktis BNPB dan BMKG guna membasahi kubah gambut kering sebelum api menjalar ke bawah lapisan tanah.</p>
+            <a href="https://indonesiabaik.id/infografis/teknologi-omc-rekayasa-cuaca-untuk-tangani-karhutla" target="_blank" rel="noopener noreferrer" class="article__link">
+              Baca di Indonesiabaik.id ↗
+            </a>
+          </div>
+        </article>
+
+        <!-- Article 5 -->
+        <article class="article">
+          <a href="https://indonesiabaik.id/infografis/strategi-3r-untuk-restorasi-lahan-gambut" target="_blank" rel="noopener noreferrer" class="article__img-link" title="Buka artikel: Strategi 3R Restorasi Gambut BRGM">
+            <div class="article__img">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/6/62/Burned_Peatland_in_Indonesia.jpg"
+                alt="Kondisi lahan gambut yang hangus terbakar"
+                loading="lazy"
+              >
+              <span class="article__cat">SAINS & GAMBUT</span>
+              <span class="article__click-badge">Buka Berita ↗</span>
+            </div>
+          </a>
+          <div class="article__body">
+            <div class="article__meta">
+              <time datetime="2024-09-24">24 September 2024</time>
+              <span>Sumber: BRGM / CIFOR</span>
+            </div>
+            <h3 class="article__title">
+              <a href="https://indonesiabaik.id/infografis/strategi-3r-untuk-restorasi-lahan-gambut" target="_blank" rel="noopener noreferrer">
+                Restorasi Gambut 3R: Mengapa Membasahi Kembali Kanal Kering adalah Kunci Menolak Api
+              </a>
+            </h3>
+            <p class="article__excerpt">Badan Restorasi Gambut dan Mangrove (BRGM) menekankan strategi 3R (Rewetting, Revegetation, Revitalization) sebagai benteng utama mencegah kebakaran bawah tanah gambut yang sulit padam.</p>
+            <a href="https://indonesiabaik.id/infografis/strategi-3r-untuk-restorasi-lahan-gambut" target="_blank" rel="noopener noreferrer" class="article__link">
+              Baca di BRGM Info ↗
+            </a>
+          </div>
+        </article>
+
+        <!-- Article 6 -->
+        <article class="article">
+          <a href="https://www.walhi.or.id" target="_blank" rel="noopener noreferrer" class="article__img-link" title="Buka situs WALHI: Advokasi Lingkungan dan Hak Hutan Adat">
+            <div class="article__img">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/6/65/Smoke_haze_cuz_forest_fire%2C_this_is_near_my_house.jpg"
+                alt="Kabut asap karhutla melingkupi pemukiman warga desa di pedalaman Kalimantan"
+                loading="lazy"
+              >
+              <span class="article__cat">ADVOKASI WARGA</span>
+              <span class="article__click-badge">Buka Berita ↗</span>
+            </div>
+          </a>
+          <div class="article__body">
+            <div class="article__meta">
+              <time datetime="2024-09-18">18 September 2024</time>
+              <span>Sumber: WALHI Indonesia</span>
+            </div>
+            <h3 class="article__title">
+              <a href="https://www.walhi.or.id" target="_blank" rel="noopener noreferrer">
+                Masyarakat Adat & Warga Terdampak Tuntut Penghentian Pengalihan Lahan Gambut
+              </a>
+            </h3>
+            <p class="article__excerpt">Koalisi masyarakat sipil dan komunitas adat menyuarakan moratorium permanen izin perkebunan skala besar di ekosistem gambut yang kerap mengorbankan desa-desa sekitar dalam kepungan asap.</p>
+            <a href="https://www.walhi.or.id" target="_blank" rel="noopener noreferrer" class="article__link">
+              Baca di WALHI.or.id ↗
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- POSTER KAMPANYE (SUMBER RESMI INTERNET, BUKAN AI GENERATED) -->
+  <section class="poster-sec" id="poster">
+    <div class="container">
+      <div class="section-head">
+        <div class="section-head__top">
+          <h2 class="section-title">Poster & Infografis Kampanye Resmi</h2>
+          <span class="section-head__hint">💡 Infografis resmi bersumber dari portal pemerintah Indonesiabaik.id (Kominfo/Kemenkomdigi RI). Klik untuk membuka dokumen lengkap atau mengunduh.</span>
+        </div>
+        <div class="section-line"></div>
+        <p class="section-desc">Materi edukasi publik resmi untuk pencegahan karhutla, perlindungan bahaya kabut asap, dan restorasi gambut. Bebas disebarluaskan untuk kepentingan publik.</p>
+      </div>
+
+      <div class="poster__grid">
+        <!-- Poster 1 -->
+        <div class="poster__card">
+          <a href="https://indonesiabaik.id/infografis/kemarau-panjang-saatnya-waspada-karhutla" target="_blank" rel="noopener noreferrer" class="poster__img-wrap" title="Buka infografis resmi: Kemarau Panjang, Saatnya Waspada Karhutla!">
+            <img
+              src="https://cms.indonesiabaik.id/storage/post/conversions/2478/2478-kemarau-panjang-saatnya-waspada-karhutla-webp_conversion.webp"
+              alt="Poster Infografis Resmi: Kemarau Panjang, Saatnya Waspada Karhutla! - Indonesiabaik.id"
+              loading="lazy"
+            >
+            <div class="poster__overlay">
+              <span class="poster__overlay-btn">Buka Infografis Penuh ↗</span>
+            </div>
+          </a>
+          <div class="poster__info">
+            <span class="poster__source-badge">Kemenkominfo / BNPB</span>
+            <h4 class="poster__title">Kemarau Panjang, Saatnya Waspada Karhutla!</h4>
+            <p class="poster__desc">Peringatan dini musim kemarau, data wilayah rawan titik panas, dan panduan kesiapsiagaan darurat.</p>
+            <div class="poster__actions">
+              <a href="https://indonesiabaik.id/infografis/kemarau-panjang-saatnya-waspada-karhutla" target="_blank" rel="noopener noreferrer" class="btn btn--sm btn--primary">
+                Buka Artikel ↗
+              </a>
+              <a href="https://cms.indonesiabaik.id/storage/post/conversions/2478/2478-kemarau-panjang-saatnya-waspada-karhutla-webp_conversion.webp" target="_blank" rel="noopener noreferrer" class="btn btn--sm btn--ghost-dark" download>
+                Unduh Gambar
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Poster 2 -->
+        <div class="poster__card">
+          <a href="https://indonesiabaik.id/infografis/lindungi-diri-dari-asap-karhutla-ini-tipsnya" target="_blank" rel="noopener noreferrer" class="poster__img-wrap" title="Buka infografis resmi: Lindungi Diri dari Asap Karhutla (Tips Kesehatan)">
+            <img
+              src="https://cms.indonesiabaik.id/storage/post/conversions/7667/7667-lindungi-diri-dari-asap-karhutla-ini-tipsnya-webp_conversion.webp"
+              alt="Poster Infografis Resmi: Lindungi Diri dari Asap Karhutla - Tips Kesehatan - Indonesiabaik.id"
+              loading="lazy"
+            >
+            <div class="poster__overlay">
+              <span class="poster__overlay-btn">Buka Infografis Penuh ↗</span>
+            </div>
+          </a>
+          <div class="poster__info">
+            <span class="poster__source-badge">Kemenkes / Kominfo</span>
+            <h4 class="poster__title">Lindungi Diri dari Asap Karhutla</h4>
+            <p class="poster__desc">Tips mitigasi kesehatan, pemilihan masker N95, pemantauan ISPU, dan perlindungan saluran pernapasan anak.</p>
+            <div class="poster__actions">
+              <a href="https://indonesiabaik.id/infografis/lindungi-diri-dari-asap-karhutla-ini-tipsnya" target="_blank" rel="noopener noreferrer" class="btn btn--sm btn--primary">
+                Buka Artikel ↗
+              </a>
+              <a href="https://cms.indonesiabaik.id/storage/post/conversions/7667/7667-lindungi-diri-dari-asap-karhutla-ini-tipsnya-webp_conversion.webp" target="_blank" rel="noopener noreferrer" class="btn btn--sm btn--ghost-dark" download>
+                Unduh Gambar
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Poster 3 -->
+        <div class="poster__card">
+          <a href="https://indonesiabaik.id/infografis/satu-api-bisa-jadi-karhutla-yuk-cegah-dari-hal-sederhana" target="_blank" rel="noopener noreferrer" class="poster__img-wrap" title="Buka infografis resmi: Satu Api Bisa Jadi Karhutla, Yuk Cegah dari Hal Sederhana">
+            <img
+              src="https://cms.indonesiabaik.id/storage/post/conversions/7586/7586-satu-api-bisa-jadi-karhutla-yuk-cegah-dari-hal-sederhana-thumb.webp"
+              alt="Poster Infografis Resmi: Satu Api Bisa Jadi Karhutla, Yuk Cegah! - Indonesiabaik.id"
+              loading="lazy"
+            >
+            <div class="poster__overlay">
+              <span class="poster__overlay-btn">Buka Infografis Penuh ↗</span>
+            </div>
+          </a>
+          <div class="poster__info">
+            <span class="poster__source-badge">Edukasi KLHK / Kominfo</span>
+            <h4 class="poster__title">Satu Api Bisa Jadi Karhutla, Yuk Cegah!</h4>
+            <p class="poster__desc">Larangan membuang puntung rokok sembarangan, larangan membakar semak, dan kanal lapor titik api.</p>
+            <div class="poster__actions">
+              <a href="https://indonesiabaik.id/infografis/satu-api-bisa-jadi-karhutla-yuk-cegah-dari-hal-sederhana" target="_blank" rel="noopener noreferrer" class="btn btn--sm btn--primary">
+                Buka Artikel ↗
+              </a>
+              <a href="https://cms.indonesiabaik.id/storage/post/conversions/7586/7586-satu-api-bisa-jadi-karhutla-yuk-cegah-dari-hal-sederhana-thumb.webp" target="_blank" rel="noopener noreferrer" class="btn btn--sm btn--ghost-dark" download>
+                Unduh Gambar
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Poster 4 -->
+        <div class="poster__card">
+          <a href="https://indonesiabaik.id/infografis/strategi-3r-untuk-restorasi-lahan-gambut" target="_blank" rel="noopener noreferrer" class="poster__img-wrap" title="Buka infografis resmi: Strategi 3R untuk Restorasi Lahan Gambut">
+            <img
+              src="https://cms.indonesiabaik.id/storage/post/conversions/5559/5559-strategi-3r-untuk-restorasi-lahan-gambut-thumb.webp"
+              alt="Poster Infografis Resmi: Strategi 3R Restorasi Gambut - BRGM / Kominfo"
+              loading="lazy"
+            >
+            <div class="poster__overlay">
+              <span class="poster__overlay-btn">Buka Infografis Penuh ↗</span>
+            </div>
+          </a>
+          <div class="poster__info">
+            <span class="poster__source-badge">BRGM Indonesia</span>
+            <h4 class="poster__title">Strategi 3R Restorasi Lahan Gambut</h4>
+            <p class="poster__desc">Prinsip Rewetting (pembasahan kembali), Revegetation (penanaman kembali), dan Revitalization (peningkatan kesejahteraan).</p>
+            <div class="poster__actions">
+              <a href="https://indonesiabaik.id/infografis/strategi-3r-untuk-restorasi-lahan-gambut" target="_blank" rel="noopener noreferrer" class="btn btn--sm btn--primary">
+                Buka Artikel ↗
+              </a>
+              <a href="https://cms.indonesiabaik.id/storage/post/conversions/5559/5559-strategi-3r-untuk-restorasi-lahan-gambut-thumb.webp" target="_blank" rel="noopener noreferrer" class="btn btn--sm btn--ghost-dark" download>
+                Unduh Gambar
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERI DOKUMENTASI (FOTO NYATA, BISA DIKLIK MASUK KE SUMBER) -->
+  <section class="galeri" id="galeri">
+    <div class="container">
+      <div class="section-head">
+        <div class="section-head__top">
+          <h2 class="section-title">Galeri Dokumentasi Lapangan</h2>
+          <span class="section-head__hint">💡 Klik foto manapun untuk membuka arsip foto / dokumentasi aslinya</span>
+        </div>
+        <div class="section-line"></div>
+        <p class="section-desc">Dokumentasi nyata kebakaran hutan, perjuangan tim pemadam Manggala Agni, kepungan kabut asap di pemukiman, dan dampak ekologis gambut.</p>
+      </div>
+
+      <div class="galeri__grid">
+        <figure class="galeri__item galeri__item--wide">
+          <a href="https://upload.wikimedia.org/wikipedia/commons/e/ef/Manggala_Agni.jpg" target="_blank" rel="noopener noreferrer" class="galeri__link" title="Buka foto resolusi penuh Petugas Manggala Agni">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Manggala_Agni.jpg" alt="Petugas Manggala Agni memadamkan api di lahan gambut Kalimantan" loading="lazy">
+            <figcaption>
+              <strong>Petugas Manggala Agni di Garis Depan</strong> · Operasi pemadaman kebakaran hutan dan lahan gambut · Dok: Wikimedia Commons ↗
+            </figcaption>
+          </a>
+        </figure>
+
+        <figure class="galeri__item">
+          <a href="https://upload.wikimedia.org/wikipedia/commons/b/ba/Kondisi_pagi_hari_yang_diselimuti_kabut_asap.jpg" target="_blank" rel="noopener noreferrer" class="galeri__link" title="Buka foto dokumentasi kabut asap Palangka Raya">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Kondisi_pagi_hari_yang_diselimuti_kabut_asap.jpg" alt="Kondisi kabut asap tebal di Palangka Raya" loading="lazy">
+            <figcaption>
+              <strong>Kabut Asap Palangka Raya</strong> · Jarak pandang menurun di bawah 100 meter · Dok: Wikipedia Commons ↗
+            </figcaption>
+          </a>
+        </figure>
+
+        <figure class="galeri__item">
+          <a href="https://upload.wikimedia.org/wikipedia/commons/0/09/KARHUTLA_KALIMANTAN.jpg" target="_blank" rel="noopener noreferrer" class="galeri__link" title="Buka foto kebakaran lahan gambut Kalimantan">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/KARHUTLA_KALIMANTAN.jpg" alt="Kebakaran lahan gambut di Kalimantan" loading="lazy">
+            <figcaption>
+              <strong>Titik Api di Lapisan Gambut</strong> · Kebakaran bawah permukaan merambat cepat saat kemarau · Dok: Commons ↗
+            </figcaption>
+          </a>
+        </figure>
+
+        <figure class="galeri__item">
+          <a href="https://upload.wikimedia.org/wikipedia/commons/6/62/Burned_Peatland_in_Indonesia.jpg" target="_blank" rel="noopener noreferrer" class="galeri__link" title="Buka dokumentasi lahan gambut hangus pasca karhutla">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Burned_Peatland_in_Indonesia.jpg" alt="Lahan gambut hangus pasca kebakaran di Indonesia" loading="lazy">
+            <figcaption>
+              <strong>Lahan Gambut Pasca-Terbakar</strong> · Kerusakan struktur tanah dan hilangnya cadangan karbon · Dok: Peatland Indonesia ↗
+            </figcaption>
+          </a>
+        </figure>
+
+        <figure class="galeri__item">
+          <a href="https://upload.wikimedia.org/wikipedia/commons/6/65/Smoke_haze_cuz_forest_fire%2C_this_is_near_my_house.jpg" target="_blank" rel="noopener noreferrer" class="galeri__link" title="Buka dokumentasi kabut asap dekat pemukiman warga">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/Smoke_haze_cuz_forest_fire%2C_this_is_near_my_house.jpg" alt="Kabut asap karhutla dekat pemukiman warga" loading="lazy">
+            <figcaption>
+              <strong>Dampak Nyata Pemukiman Warga</strong> · Asap pekat mengepung rumah penduduk · Dok: Citizen Documentation ↗
+            </figcaption>
+          </a>
+        </figure>
+
+        <figure class="galeri__item">
+          <a href="https://upload.wikimedia.org/wikipedia/commons/e/e5/Borneo_fires_and_smoke%2C_2002.jpg" target="_blank" rel="noopener noreferrer" class="galeri__link" title="Buka citra satelit pemantauan sebaran asap karhutla">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Borneo_fires_and_smoke%2C_2002.jpg" alt="Citra satelit sebaran kabut asap karhutla di atas pulau Kalimantan" loading="lazy">
+            <figcaption>
+              <strong>Pantauan Citra Satelit Hotspot</strong> · Sebaran pekat aerosol asap karhutla melintasi batas wilayah · Dok: NASA ↗
+            </figcaption>
+          </a>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ASPIRASI & SUARA WARGA -->
+  <section class="aspirasi" id="aspirasi">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title">Suara & Pengaduan Warga</h2>
+        <div class="section-line"></div>
+        <p class="section-desc">Kirimkan kesaksian, kondisi udara di wilayahmu, atau tuntutan penegakan hukum terhadap pelaku pembakar lahan. Suaramu tersimpan dan ditampilkan di dinding aduan publik.</p>
+      </div>
+
+      <div class="aspirasi__layout">
+        <div class="aspirasi__form-wrap">
+          <form class="aspirasi__form" id="aspirasiForm" novalidate>
+            <div class="form-group">
+              <label for="nama">Nama <span class="optional">(bisa anonim)</span></label>
+              <input type="text" id="nama" name="nama" placeholder="Contoh: Budi Santoso / Warga Palangka Raya" maxlength="60" autocomplete="name">
+            </div>
+            <div class="form-group">
+              <label for="provinsi">Provinsi / Wilayah</label>
+              <select id="provinsi" name="provinsi">
+                <option value="">Pilih provinsi...</option>
+                <option>Kalimantan Tengah</option>
+                <option>Kalimantan Barat</option>
+                <option>Kalimantan Selatan</option>
+                <option>Kalimantan Timur</option>
+                <option>Kalimantan Utara</option>
+                <option>Riau</option>
+                <option>Sumatera Selatan</option>
+                <option>Sumatera Utara</option>
+                <option>Jambi</option>
+                <option>Bangka Belitung</option>
+                <option>Papua</option>
+                <option>Papua Barat</option>
+                <option>Provinsi lainnya</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="pesan">Aspirasi atau Kesaksian Kamu <span class="required">*</span></label>
+              <textarea id="pesan" name="pesan" rows="5" placeholder="Tuliskan pengalaman dampak asap, lokasi titik api yang kamu ketahui, atau pesan kepada instansi berwenang..." maxlength="500" required></textarea>
+              <span class="char-count" id="charCount">0 / 500</span>
+            </div>
+            <div class="form-error" id="formError" hidden>Harap isi kolom aspirasi terlebih dahulu.</div>
+            <button type="submit" class="btn btn--primary btn--full" id="submitBtn">Kirimkan Suara Sekarang</button>
+          </form>
+        </div>
+
+        <div class="aspirasi__wall">
+          <h3 class="wall__title">Suara Warga Terdampak</h3>
+          <div class="wall__list" id="aspirasiList" aria-live="polite">
+            <!-- Rendered by JS -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__about">
+        <div class="logo" style="margin-bottom: 1rem">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M12 2C8 6 5 10 5 14a7 7 0 0014 0c0-4-3-8-7-12z" fill="#e85d04"/>
+            <path d="M12 8c-2 2.5-3 5-3 7a3 3 0 006 0c0-2-1-4.5-3-7z" fill="#f48c06"/>
+          </svg>
+          <span>KARHUTLA<span class="logo__id">.ID</span></span>
+        </div>
+        <p>Inisiatif independen pemantauan kebakaran hutan dan lahan di Indonesia. Menghubungkan informasi faktual, edukasi publik, dan suara masyarakat terdampak.</p>
+      </div>
+
+      <div class="footer__col">
+        <h4>Kementerian & Badan</h4>
+        <a href="https://bnpb.go.id" target="_blank" rel="noopener noreferrer">BNPB — Badan Nasional Penanggulangan Bencana</a>
+        <a href="https://sipongi.menlhk.go.id" target="_blank" rel="noopener noreferrer">SIPONGI — Pantauan Hotspot Real-Time</a>
+        <a href="https://brgm.go.id" target="_blank" rel="noopener noreferrer">BRGM — Restorasi Gambut & Mangrove</a>
+        <a href="https://atrbpn.go.id" target="_blank" rel="noopener noreferrer">Kementerian ATR/BPN RI</a>
+      </div>
+
+      <div class="footer__col">
+        <h4>Advokasi & Media</h4>
+        <a href="https://www.antaranews.com/topik/karhutla" target="_blank" rel="noopener noreferrer">ANTARA News Karhutla</a>
+        <a href="https://indonesiabaik.id" target="_blank" rel="noopener noreferrer">Indonesiabaik.id (Infografis Resmi)</a>
+        <a href="https://www.walhi.or.id" target="_blank" rel="noopener noreferrer">WALHI — Wahana Lingkungan Hidup</a>
+        <a href="https://www.greenpeace.org/indonesia" target="_blank" rel="noopener noreferrer">Greenpeace Indonesia</a>
+      </div>
+
+      <div class="footer__col">
+        <h4>Hotline Aduan Darurat</h4>
+        <a href="tel:117">📞 Hotline BNPB: 117</a>
+        <a href="tel:1500657">📞 Pengaduan KLHK: 1500-657</a>
+        <a href="tel:110">📞 Polisi Darurat: 110</a>
+        <a href="https://pengaduan.menlhk.go.id" target="_blank" rel="noopener noreferrer">🌐 Portal Aduan Karhutla KLHK</a>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container">
+        <p>© 2024 KARHUTLA.ID · Didedikasikan untuk transparansi data dan hak masyarakat atas udara bersih · Foto & Infografis: Wikimedia Commons & Indonesiabaik.id</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
