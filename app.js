@@ -180,11 +180,11 @@ form.addEventListener('submit', (e) => {
   charCount.textContent = '0 / 500';
 
   // Feedback on button
-  submitBtn.textContent = '✓ Aspirasi terkirim!';
+  submitBtn.textContent = 'Aspirasi berhasil dikirim!';
   submitBtn.style.background = '#2ea043';
   submitBtn.disabled = true;
   setTimeout(() => {
-    submitBtn.textContent = 'Kirim Aspirasi';
+    submitBtn.textContent = 'Kirimkan Suara Sekarang';
     submitBtn.style.background = '';
     submitBtn.disabled = false;
   }, 3000);
